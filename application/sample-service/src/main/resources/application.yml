@@ -1,0 +1,50 @@
+spring:
+  application:
+    name: sample-service
+
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: <pass>
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=code_with_nk_db
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+      - org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration
+
+
+server:
+  port: 8080
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        secure: true
+
+app:
+  version: 1.0.0
+  security:
+    enabled: true
+  swagger:
+    enable-auth: false
+    title: Sample Service
+    desc: Helps to interact with Backend
+    version: v1
+    path-mapping: /
+    contact:
+      name: Backend Team
+      email: test@test.com
+      url: ""
+    license: null
+    license-uri: null
+
+logging:
+  level:
+    com:
+      zaxxer:
+        hikari: debug
+
+
+
