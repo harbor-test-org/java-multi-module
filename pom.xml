@@ -43,7 +43,7 @@
 		<ai-spring-boot-starter.version>2.6.2</ai-spring-boot-starter.version>
 		<jansi.version>1.11</jansi.version>
 		<logstash.version>6.4</logstash.version>
-		<ai-logging-logback.version>2.6.1</ai-logging-logback.version>
+		<ai-logging-logback.version>2.6.4</ai-logging-logback.version>
 		<syntax-highlighter.version>1.0.3</syntax-highlighter.version>
 		<mteric-collector.version>2.3.5</mteric-collector.version>
 	</properties>
