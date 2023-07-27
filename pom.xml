@@ -34,7 +34,7 @@
 		<app.version>1.0.0-SNAPSHOT</app.version>
 		<springfox-swagger2.version>3.0.0</springfox-swagger2.version>
 		<sqlserver.version>7.4.1.jre8</sqlserver.version>
-		<jsonwebtoken.version>0.10.7</jsonwebtoken.version>
+		<jsonwebtoken.version>0.11.5</jsonwebtoken.version>
 		<unirest.version>3.3.00</unirest.version>
 		<maven.test.skip>true</maven.test.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
